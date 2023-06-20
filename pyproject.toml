@@ -1,0 +1,22 @@
+###########
+# 📜 Poetry
+###########
+[tool.poetry]
+name = "poetry-python-3-11-4"
+version = "0.1.0"
+description = "poetry-python-3-11-4"
+authors = ["John Sandall <contact@coefficient.ai>"]
+license = "UNLICENSED"
+classifiers = ["Private :: Do Not Upload"]
+packages = [
+  # Add more packages here, e.g.
+  # { include = "module_name", from = "warehouse" },
+]
+
+[tool.poetry.dependencies]
+python = ">=3.11.1,<3.12"
+# Everything below here is alphabetically sorted
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
